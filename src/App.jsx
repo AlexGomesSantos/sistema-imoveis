@@ -1,3 +1,4 @@
+import React from "react"; // Adicione esta linha
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Home from "./pages/Home";
