@@ -23,8 +23,8 @@ body {
     font-weight: 400;
 }
 
-ul {
-    list-style: none;
+ul, nav {
+    list-style-type: none;
 }
 a {text-decoration: none;}
 
