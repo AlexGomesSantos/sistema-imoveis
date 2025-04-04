@@ -1,4 +1,7 @@
 import React, { Fragment } from "react";
+import TopBanner from "../../components/TopBanner";
+/* import Input from "../../components/Input";
+import TextArea from "../../components/TextArea"; */
 import {
   Container,
   Left,
@@ -11,7 +14,6 @@ import {
   ProfileContact,
   ProfileFormContact,
 } from "./styles";
-import TopBanner from "../../components/TopBanner";
 
 const Imobi = () => {
   return (
@@ -20,7 +22,10 @@ const Imobi = () => {
       <Container>
         <Left>
           <Thumb>
-            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
           </Thumb>
           <Description>
             <h2>Apartamento/Alugar</h2>
@@ -55,13 +60,7 @@ const Imobi = () => {
             <form>
               <input type="text" placeholder="Nome:" />
               <input type="text" placeholder="Email:" />
-              <textarea
-                name=""
-                id=""
-                cols={30}
-                rows={10}
-                placeholder="Mensagem:"
-              ></textarea>
+              <textarea placeholder="Mensagem:"></textarea>
               <button>Enviar mensagem</button>
             </form>
           </ProfileFormContact>

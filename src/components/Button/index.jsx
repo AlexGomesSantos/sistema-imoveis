@@ -5,7 +5,7 @@ const Button = ({props, children}) => {
   return{
     <Container {...props}>
     {children}
-    </Container>;
+    </Container>
 }
 }
 

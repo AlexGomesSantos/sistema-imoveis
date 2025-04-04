@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "./styles";
 
-const Input = (props) => {
+const TextArea = (props) => {
   return <Container {...props} />;
 };
 
-export default Input;
+export default TextArea;

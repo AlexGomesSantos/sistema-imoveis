@@ -65,7 +65,9 @@ export const ProfileFormContact = styled.div`
     color: var(--secundary);
   }
   form {
-    input,
+    display: flex;
+    flex-direction: column;
+    /* input,
     textarea {
       height: 50px;
       padding: 8px 15px;
@@ -95,6 +97,6 @@ export const ProfileFormContact = styled.div`
       font: 0.875rem;
       font-weight: 600;
       padding: 12px 20px;
-    }
+    } */
   }
 `;
