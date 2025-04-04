@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Arquivos temporários do sistema
+DumpStack.log.tmp

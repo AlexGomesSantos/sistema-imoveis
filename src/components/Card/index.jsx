@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Container, Description, Img, Itens } from "./styles";
 import { FaMapMarkerAlt, FaArrowRight } from "react-icons/fa";
 
@@ -20,9 +21,9 @@ const Card = () => {
           </span>
           <span>R$ 2.400,00 / mês</span>
         </Itens>
-        <a href="a">
+        <Link to="Imobi">
           Detalhes <FaArrowRight />
-        </a>
+        </Link>
       </Description>
     </Container>
   );
